@@ -13,8 +13,6 @@ import java.io.IOException;
 
 public class XMLFileReader {
 
-
-
     private Document parsedXMLFile;
 
     public XMLFileReader(String xmlFilePath) {
@@ -30,7 +28,7 @@ public class XMLFileReader {
             e.printStackTrace();
         }
     }
-    
+
     public Document getParsedXMLFile() {
         return parsedXMLFile;
     }

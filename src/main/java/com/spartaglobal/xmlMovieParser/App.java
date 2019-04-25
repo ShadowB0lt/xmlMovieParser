@@ -4,6 +4,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+
+//        XMLFileReader movies = new XMLFileReader("resources/movies.xml");
+        MoviesDTO moviesDTO = new MoviesDTO("resources/movies.xml");
+        moviesDTO.printAllMovieNames();
     }
 }
